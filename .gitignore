@@ -1,0 +1,22 @@
+# Build output
+target/
+.maven-cache/
+maven-test.out
+maven-test.err
+demo-server.out
+demo-server.err
+
+# IDE settings
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local credentials - never commit these
+src/main/resources/secrets.properties
+
